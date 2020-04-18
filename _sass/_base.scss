@@ -37,7 +37,7 @@ h6 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -75,6 +75,7 @@ aside {
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
+        margin-top: -3px;
         color: $theme-primary;
         @include sans-serif-font;
         font-weight: 700;
@@ -175,7 +176,7 @@ header {
             p {
                 font-weight: 300;
                 color: rgba(white, .7);
-                font-size: 16px;
+                font-size: 24px;
                 margin-bottom: 50px;
             }
         }
@@ -194,7 +195,7 @@ header {
                 margin-left: auto;
                 margin-right: auto;
                 p {
-                    font-size: 18px;
+                    font-size: 24px;
                     max-width: 80%;
                     margin-left: auto;
                     margin-right: auto;
